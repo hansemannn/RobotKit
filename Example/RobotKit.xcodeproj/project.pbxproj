@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A41950E1CD69EA8005CDAA3 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A41950D1CD69EA8005CDAA3 /* RobotKit.framework */; };
+		3AA2AFCE1CD6A494007E5E56 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA2AFCD1CD6A494007E5E56 /* RobotKit.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		025B4328FC83C469F743A943 /* RobotKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RobotKit.podspec; path = ../RobotKit.podspec; sourceTree = "<group>"; };
-		3A41950D1CD69EA8005CDAA3 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = "Pods/../build/Debug-iphoneos/RobotKit.framework"; sourceTree = "<group>"; };
+		3AA2AFCD1CD6A494007E5E56 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = ../RobotKit/Frameworks/RobotKit.framework; sourceTree = "<group>"; };
 		3FFEC6ADD05E28AFC9B43016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		474F671093467C31A77B3FF1 /* Pods_RobotKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RobotKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,8 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A41950E1CD69EA8005CDAA3 /* RobotKit.framework in Frameworks */,
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				3AA2AFCE1CD6A494007E5E56 /* RobotKit.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				FCB10B04C02D77132757A76C /* Pods_RobotKit_Tests.framework in Frameworks */,
@@ -73,7 +73,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A41950D1CD69EA8005CDAA3 /* RobotKit.framework */,
+				3AA2AFCD1CD6A494007E5E56 /* RobotKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
