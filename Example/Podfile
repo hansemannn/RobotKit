@@ -1,0 +1,8 @@
+use_frameworks!
+
+
+target 'RobotKit_Tests', :exclusive => true do
+  pod 'RobotKit', :path => '../'
+
+  
+end
