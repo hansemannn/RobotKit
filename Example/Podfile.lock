@@ -1,0 +1,14 @@
+PODS:
+  - RobotKit (0.1.0)
+
+DEPENDENCIES:
+  - RobotKit (from `../`)
+
+EXTERNAL SOURCES:
+  RobotKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RobotKit: 531ef58f8a5c0bf368227d038fd336430562a370
+
+COCOAPODS: 0.39.0
